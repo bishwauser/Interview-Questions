@@ -88,13 +88,13 @@ int minimumIsland(std::vector<std::vector<char>> grid) {
 }
 
 
-void run() {
-  std::vector<std::vector<char>> grid {
-    {'L', 'W', 'W', 'L', 'W'},
-    {'L', 'W', 'W', 'L', 'L'},
-    {'W', 'L', 'W', 'L', 'W'},
-    {'W', 'W', 'W', 'W', 'W'},
-    {'W', 'W', 'L', 'L', 'L'}
-  };
-  cout<<minimumIsland(grid);
+int main() {
+    std::vector<std::vector<char>> grid {
+      {'L', 'W', 'W', 'L', 'W'},
+      {'L', 'W', 'W', 'L', 'L'},
+      {'W', 'L', 'W', 'L', 'W'},
+      {'W', 'W', 'W', 'W', 'W'},
+      {'W', 'W', 'L', 'L', 'L'}
+    };
+    cout<<minimumIsland(grid);
 }
