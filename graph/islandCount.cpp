@@ -81,7 +81,7 @@ int islandCount(std::vector<std::vector<char>> grid) {
 }
 
 
-void run() {
+int main() {
     std::vector<std::vector<char>> grid {
       {'W', 'L', 'W', 'W', 'W'},
       {'W', 'L', 'W', 'W', 'W'},
