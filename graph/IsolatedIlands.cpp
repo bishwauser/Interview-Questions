@@ -101,12 +101,3 @@ int main()
     return 0;
 }
 
-
-to be precise I am requesting to change the conf to the below and test.
-ldap_peer[0]: 172.28.6.180:16611 LDAP_PRIMARY
-ldap_peer[1]: 172.28.6.173:16611 LDAP_PRIMARY
-ldap_peer[2]: 10.15.192.172:16611 LDAP_SECONDARY
-ldap_peer[3]: 10.15.193.172:16611 LDAP_SECONDARY
-
-if you notice the primary peer is still primary and the one which was secondary is still secondary. Its just the sequence of their entries in the ldap_peer is different.
-
